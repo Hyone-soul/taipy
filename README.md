@@ -1,110 +1,65 @@
-[![Hacktoberfest_clickable](https://github.com/user-attachments/assets/b1b5a430-6df9-40c2-999f-de3433f61251)](https://assorted-son-815.notion.site/Hacktoberfest-2024-with-Taipy-2a5032a3f01642709e88ffaa5d0d169e)
 
 
-<div align="center">
-  <a href="https://taipy.io?utm_source=github" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Avaiga/taipy/assets/100117126/509bf101-54c2-4321-adaf-a2af63af9682">
-    <img alt="Taipy" src="https://github.com/Avaiga/taipy/assets/100117126/4df8a733-d8d0-4893-acf0-d24ef9e8b58a" width="300" />
-  </picture>
-  </a>
-</div>
+## ⭐️ 什么是 Taipy?
 
-<h1 align="center">
-Build Python Data & AI web applications
-</h1>
+Taipy 是专为数据科学家和机器学习工程师设计的，用于构建数据与 AI Web 应用程序的工具。<br />
 
-<div align="center">
-From simple pilots to production-ready web applications in no time. <br />
-No more compromise on performance, customization, and scalability.
-</div>
-
-<br />
-
-<div align="center">
-
-**Go beyond existing libraries**
-
-</div>
-
-<p align="center"><h4>
-    <br />
-    <a href="https://docs.taipy.io/en/latest/"><strong>📚 Explore the docs </strong></a>
-    <br />
-    <a href="https://discord.com/invite/SJyz2VJGxV"><strong>  🫱🏼‍🫲🏼 Discord support </strong></a>
-    <br />
-    <a href="https://docs.taipy.io/en/latest/gallery/"><strong> 👀 Demos & Examples </strong></a>
-</h4>
-  </p>
-
-&nbsp;
-
-## ⭐️ What's Taipy?
-
-Taipy is designed for data scientists and machine learning engineers to build data & AI web applications.
-&nbsp;
-
-⭐️ Enables building production-ready web applications. <br />
-⭐️ No need to learn new languages. Only Python is needed.<br />
-⭐️ Concentrate on Data and AI algorithms without development and deployment complexities.<br />
+⭐️ 使构建生产就绪的 Web 应用程序成为可能。<br />
+⭐️ 无需学习新的语言，仅需 Python。<br />
+⭐️ 专注于数据和 AI 算法，而不用担心开发和部署的复杂性。<br />
 
 &nbsp;
 
 <h4 align="left">
-Taipy is a Two-in-One Tool for UI Generation and Scenario/Data Management
+Taipy 是一个集 UI 生成和场景/数据管理于一体的工具
 </h4>
 
 <br />
 
-| User Interface Generation                                                                       | Scenario and Data Management                                                                        |
+| 用户界面生成 | 场景和数据管理 |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <img src="readme_img/taipy_github_GUI_video.gif" alt="Interface Animation"  width="100%" /> | <img src="readme_img/taipy_github_scenarios_video.gif" alt="Back-End Animation"  width="100%"/> |
+| <img src="readme_img/taipy_github_GUI_video.gif" alt="界面动画"  width="100%" /> | <img src="readme_img/taipy_github_scenarios_video.gif" alt="后台动画"  width="100%"/> |
 
 &nbsp;
 
-## ✨ Key Features
+## ✨ 关键功能
 
-<img src="readme_img/taipy_github_scenario.png" alt="Scenario Banner"  width="49%" />  <img src="readme_img/taipy-github-optimized.png" alt="Back-End Animation"  width="49.7%"/>
-<img src="readme_img/taipy_github_data_support.png" alt="Back-End Animation"  width="49.7%" />
+<img src="readme_img/taipy_github_scenario.png" alt="场景横幅"  width="49%" />  <img src="readme_img/taipy-github-optimized.png" alt="后台动画"  width="49.7%"/>
+<img src="readme_img/taipy_github_data_support.png" alt="后台动画"  width="49.7%" />
 
 &nbsp;
 
-## ⚙️ Quickstart
+## ⚙️ 快速开始
 
-To install the Taipy stable release run:
+安装 Taipy 稳定版请运行：
 
 ```bash
 pip install taipy
 ```
 
+准备好安装 Taipy 了吗？🚀<br>
+很快就能设置好！无论你是使用 Conda 环境，还是从源码安装，请按照我们的[安装指南](https://docs.taipy.io/en/latest/installation/)获取逐步指导。<br/>
 
-Ready to Install Taipy? 🚀<br>
-Get everything set up in no time! Whether you're using a Conda environment or installing from
-source, follow our [Installation Guide](https://docs.taipy.io/en/latest/installation/) for
-step-by-step instructions.<br/>
-
-Excited to Dive In? 💡 <br>
-Start building with Taipy today! Our
-[Getting Started Guide](https://docs.taipy.io/en/latest/tutorials/getting_started/) is the
-perfect place to begin your journey and unlock the full potential of Taipy.
+期待马上使用？💡<br>
+从今天开始用 Taipy 构建吧！我们的[快速入门指南](https://docs.taipy.io/en/latest/tutorials/getting_started/)是你开始 Taipy 之旅的理想起点，充分挖掘 Taipy 的潜力。
 
 &nbsp;
 
-## 🔌 Scenario and Data Management
+## 🔌 场景和数据管理
 
-Let's create a scenario in Taipy that allows you to filter movie data based on your chosen genre.<br />
-This scenario is designed as a straightforward pipeline.<br />
-Every time you change your genre selection, the scenario runs to process your request.<br />
-It then displays the top seven most popular movies in that genre.
-
-<br />
-
-> ⚠️ Keep in mind, in this example, we're using a very basic pipeline that consists of just one task. However,<br />
-> Taipy is capable of handling much more complex pipelines 🚀
+让我们在 Taipy 中创建一个场景，允许你根据选择的电影类型过滤数据。<br />
+该场景设计为一个简单的管道。<br />
+每次更改电影类型选择时，场景都会运行以处理你的请求。<br />
+然后，它会显示该类型中最受欢迎的前七部电影。
 
 <br />
 
-Below is our filter function. This is a typical Python function and it's the only task used in this scenario.
+> ⚠️ 请注意，在这个示例中，我们使用了一个非常简单的仅包含一个任务的管道。然而，<br />
+> Taipy 能够处理更复杂的管道 🚀
+
+<br />
+
+以下是我们的过滤函数。这是一个典型的 Python 函数，也是该场景中使用的唯一任务。
 
 ```python
 def filter_genre(initial_dataset: pd.DataFrame, selected_genre):
@@ -113,7 +68,7 @@ def filter_genre(initial_dataset: pd.DataFrame, selected_genre):
     return filtered_data
 ```
 
-This is the execution graph of the scenario we are implementing
+这是我们正在实现的场景的执行图
 
 <p align="center">
 <img src="https://github.com/Avaiga/taipy/raw/develop/readme_img/readme_exec_graph.png" width="600" align="center" />
@@ -121,108 +76,87 @@ This is the execution graph of the scenario we are implementing
 
 ### Taipy Studio
 
-You can use the Taipy Studio extension in Visual Studio Code to configure your scenario with no code<br />
-Your configuration is automatically saved as a TOML file.<br />
-Check out Taipy Studio [Documentation](https://docs.taipy.io/en/latest/manuals/studio/)
+你可以在 Visual Studio Code 中使用 Taipy Studio 扩展来无代码配置场景。<br />
+你的配置会自动保存为 TOML 文件。<br />
+查看 Taipy Studio [文档](https://docs.taipy.io/en/latest/manuals/studio/)
 
-For more advanced use cases or if you prefer coding your configurations instead of using Taipy Studio,<br />
-Check out the movie genre demo scenario creation with this [Demo](https://docs.taipy.io/en/latest/gallery/other/movie_genre_selector/).
+对于更高级的用例，或如果你更喜欢通过编码而非使用 Taipy Studio 来配置场景，<br />
+请查看这个[演示](https://docs.taipy.io/en/latest/gallery/other/movie_genre_selector/)的电影类型筛选场景创建。
 
 ![TaipyStudio](https://github.com/Avaiga/taipy/raw/develop/readme_img/readme_demo_studio.gif)
 
 &nbsp;
 
-## User Interface Generation and Scenario & Data Management
+## 用户界面生成和场景 & 数据管理
 
-This simple Taipy application demonstrates how to create a basic film recommendation system using Taipy.<br />
-The application filters a dataset of films based on the user's selected genre and displays the top seven films in that genre by popularity.
-Here is the full code for both the front-end and back-end of the application.
+这个简单的 Taipy 应用程序演示了如何使用 Taipy 创建一个基本的电影推荐系统。<br />
+应用程序根据用户选择的电影类型过滤电影数据集，并显示该类型中最受欢迎的前七部电影。
+以下是该应用程序的前端和后端代码的完整实现。
 
 ```python
 import taipy as tp
 import pandas as pd
 from taipy import Config, Scope, Gui
 
-# Defining the helper functions
+# 定义辅助函数
 
-# Callback definition - submits scenario with genre selection
+# 回调定义 - 提交场景与类型选择
 def on_genre_selected(state):
     scenario.selected_genre_node.write(state.selected_genre)
     tp.submit(scenario)
     state.df = scenario.filtered_data.read()
 
-## Set initial value to Action
+## 设置初始值为 Action
 def on_init(state):
     on_genre_selected(state)
 
-# Filtering function - task
+# 过滤函数 - 任务
 def filter_genre(initial_dataset: pd.DataFrame, selected_genre):
     filtered_dataset = initial_dataset[initial_dataset["genres"].str.contains(selected_genre)]
     filtered_data = filtered_dataset.nlargest(7, "Popularity %")
     return filtered_data
 
-# The main script
+# 主脚本
 if __name__ == "__main__":
-    # Taipy Scenario & Data Management
+    # Taipy 场景 & 数据管理
 
-    # Load the configuration made with Taipy Studio
+    # 加载通过 Taipy Studio 创建的配置
     Config.load("config.toml")
     scenario_cfg = Config.scenarios["scenario"]
 
-    # Start Taipy Orchestrator
+    # 启动 Taipy 协调器
     tp.Orchestrator().run()
 
-    # Create a scenario
+    # 创建一个场景
     scenario = tp.create_scenario(scenario_cfg)
 
-    # Taipy User Interface
-    # Let's add a GUI to our Scenario Management for a full application
+    # Taipy 用户界面
+    # 让我们为场景管理添加一个 GUI，形成一个完整的应用程序
 
-    # Get the list of genres
+    # 获取类型列表
     genres = [
         "Action", "Adventure", "Animation", "Children", "Comedy", "Fantasy", "IMAX"
         "Romance", "Sci-FI", "Western", "Crime", "Mystery", "Drama", "Horror", "Thriller", "Film-Noir", "War", "Musical", "Documentary"
     ]
 
-    # Initialization of variables
+    # 初始化变量
     df = pd.DataFrame(columns=["Title", "Popularity %"])
     selected_genre = "Action"
 
-    # User interface definition
+    # 用户界面定义
     my_page = """
-# Film recommendation
+# 电影推荐
 
-## Choose your favorite genre
+## 选择你喜欢的电影类型
 <|{selected_genre}|selector|lov={genres}|on_change=on_genre_selected|dropdown|>
 
-## Here are the top seven picks by popularity
-<|{df}|chart|x=Title|y=Popularity %|type=bar|title=Film Popularity|>
+## 以下是最受欢迎的前七部电影
+<|{df}|chart|x=Title|y=Popularity %|type=bar|title=电影受欢迎度|>
     """
 
     Gui(page=my_page).run()
 ```
 
-And the final result:
+最终结果如下：
 <img src="readme_img/readme_app.gif" />
 
-&nbsp;
-
-## ⚒️ Contributing
-
-Want to help build Taipy? Check out our [**Contributing Guide**](https://github.com/Avaiga/taipy/blob/develop/CONTRIBUTING.md).
-
-## 🪄 Code of conduct
-
-Want to be part of the Taipy community? Check out our **[Code of Conduct](https://github.com/Avaiga/taipy/blob/develop/CODE_OF_CONDUCT.md)**
-
-## 🪪 License
-
-Copyright 2021-2024 Avaiga Private Limited
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
-the License. You may obtain a copy of the License at
-[Apache License](https://www.apache.org/licenses/LICENSE-2.0.txt)
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
-an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
-specific language governing permissions and limitations under the License.
